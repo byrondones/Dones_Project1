@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap');
 
+/* <---------------- index.html -----------------> */
 /* btn login container */
 .login-container{
     width: 100%;
@@ -47,17 +48,15 @@ cursor: pointer;
 /* sb-logo-container  */
 .sb-logo-container{
     width: 100%;
-    height: 230px;
+    height: 200px;
 
     display: flex;
     justify-content: center;
-
 }
 
 #sb-logo-ph{
     color: #d400ff;
     font-size: 50px;
-    margin-top: 80px;
 }
 
 #sb-logo-cl{
@@ -65,8 +64,6 @@ cursor: pointer;
     font-size: 100px;
     font-family: 'Times New Roman', Times, serif;
 }
-
-
 /* end of sb-logo-container  */
 
 /* footer container */
@@ -106,3 +103,167 @@ text-decoration: none;
 }
 
 /* end of footer container */
+/* <---------------- end of login.html -----------------> */
+
+
+/* <---------------- login.html -----------------> */
+.go-back-btn{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+#back-btn{
+    width: 100%;
+}
+
+.go-back-btn a{
+    color: black;
+}
+
+.go-back-btn button{
+    font-size: 40px;
+    border: none;
+    background-color: white;
+    padding-left: 30px;
+}
+
+/* h-banner container */
+.h-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* sb-logo-container2  */
+.sb-logo-container{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+#sb-logo-ph2{
+    color: #d400ff;
+    font-size: 35px;
+    height: 1px;
+    margin-top: 5px;
+    margin-left: 215px;
+    margin-bottom: 10px;
+}
+
+#sb-logo-cl2{
+    margin-top: auto;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* end of sb-logo-container2 */
+
+/* form container */
+.form-container{
+width: 100%;
+
+display: flex;
+justify-content: center;
+}
+
+.login-form{
+    background-color: rgb(228, 228, 228);
+    height: 250px;
+    width: 450px;
+
+    border: solid;
+    border-width: .1px;
+    border-radius: 5px;
+}
+.login-form p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+}
+
+.login-form input{
+    font-size: 20px;
+    border-radius: 5px;
+    border-width: .1px;
+    margin-left: 0px;
+}
+
+#lf-email{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 45px;
+}
+
+#lf-pw{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.login-form button{
+margin-left: 343px;
+
+width: 80px;
+height: 30px;
+}
+
+.createacc-form{
+    background-color: rgb(228, 228, 228);
+    height: 400px;
+    width: 450px;
+
+    border: solid;
+    border-width: .1px;
+    border-radius: 5px;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* end of form container */
+
+/* footer container2 */
+.footer-container-2{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(211, 211, 211);
+    
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+
+    /* margin-top: 810px; */
+}
+
+.footer-container-2 p{
+    font-family: 'Mulish', sans-serif;
+
+    font-size: 20px;
+    margin-top: 1px;
+}
+
+.footer-container-2 a{
+padding-left: 20px;
+
+
+font-family: 'Mulish', sans-serif;
+
+font-size: 20px;
+margin-top: 1px;
+
+text-decoration: none;
+}
+
+/* end of footer container2 */
+
+
+/* <---------------- end of login.html -----------------> */
