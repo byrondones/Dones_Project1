@@ -21,13 +21,6 @@ margin: 50px;
 
 cursor: pointer;
 }
-/* end off btn login container */
-
-/* ph logo container */
-
-/* end of logo container */
-
-/* .sb-container */
 .sb-container{
     width: 100%;
 
@@ -61,10 +54,19 @@ cursor: pointer;
 
 }
 
-.sb-logo-container p{
+#sb-logo-ph{
+    color: red;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+#sb-logo-cl{
+    height: 2px;
     font-size: 100px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+
 /* end of sb-logo-container  */
 
 /* footer container */
