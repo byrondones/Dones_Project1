@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap');
 
+/* index.html */
+
+@media screen and (min-width: 390px){
 /* <---------------- index.html -----------------> */
-/* btn login container */
+/* btn index container */
 .login-container{
     width: 100%;
     display: flex;
@@ -10,7 +13,233 @@
 
 .login-container a{
     text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+}
 
+.login-container button{
+border: none;
+
+background-color: white;
+margin: 50px;
+
+cursor: pointer;
+margin-bottom: 150px;
+}
+
+.sb-container{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    margin-top: 30px;
+}
+
+.sb-container input{
+    width: 350px;
+    height: 30px;
+
+    border-radius: 20px;
+    border-width: .5px;
+    border-color: purple;
+
+    
+    padding-left: 10px;
+
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.192);
+
+    margin-top: 30px;
+}
+/* end of sb-container */
+
+.sb-container button{
+    text-decoration: none;
+
+    margin-top: 15px;
+    margin-left: 15px;
+
+    border: solid;
+    border-width: .5px;
+    border-color: purple;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+
+    cursor: pointer;
+
+    width: 250px;
+    height: 30px;
+    font-size: large;
+
+
+}
+
+.sb-container button:hover{
+    color: purple;
+    background: white;
+}
+
+#sb-logo-ph{
+    margin-top: -60px;
+    margin-left: 230px;
+    color: purple;
+    font-size: 30px;
+}
+
+#sb-logo-cl{
+    height: 2px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* end of sb-logo-container  */
+/* footer container2 */
+.footer-container-1{
+    margin-top: 285px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(211, 211, 211);
+    
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+
+    /* margin-top: 810px; */
+}
+
+.footer-container-1 p{
+    font-family: 'Mulish', sans-serif;
+
+    font-size: 20px;
+    margin-top: 1px;
+}
+
+.footer-container-1 a{
+padding-left: 20px;
+
+font-family: 'Mulish', sans-serif;
+
+font-size: 20px;
+margin-top: 1px;
+
+text-decoration: none;
+}
+}
+@media screen and (min-width: 768px){
+    /* <---------------- index.html -----------------> */
+    /* btn index container */
+    .login-container{
+        width: 100%;
+        display: flex;
+        justify-content: right;
+    }
+    
+    .login-container a{
+        text-decoration: none;
+    
+        font-family: 'Mulish', sans-serif;
+    }
+    
+    .login-container button{
+    border: none;
+    
+    background-color: white;
+    margin: 50px;
+    
+    cursor: pointer;
+    }
+    .sb-container{
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        margin-top: 30px;
+    }
+    
+    .sb-container input{
+        width: 550px;
+        height: 30px;
+    
+        border-radius: 20px;
+        border-width: 0.1px;
+    
+        padding-left: 10px;
+    
+        font-size: 20px;
+    
+        font-family: 'Mulish', sans-serif;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.192);
+    }
+    /* end of sb-container */
+    
+    #sb-logo-ph{
+        margin-top: -120px;
+        margin-left: 440px;
+        color: purple;
+        font-size: 50px;
+    }
+    
+    #sb-logo-cl{
+        height: 2px;
+        font-size: 100px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    /* end of sb-logo-container  */
+
+    .footer-container-1{
+        margin-top: 480px;
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+    
+        background-color: rgb(211, 211, 211);
+        
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 5px;
+    
+        /* margin-top: 810px; */
+    }
+    
+    .footer-container-1 p{
+        font-family: 'Mulish', sans-serif;
+    
+        font-size: 20px;
+        margin-top: 1px;
+    }
+    
+    .footer-container-1 a{
+    padding-left: 20px;
+    
+    font-family: 'Mulish', sans-serif;
+    
+    font-size: 20px;
+    margin-top: 1px;
+    
+    text-decoration: none;
+    }
+}
+@media screen and not (max-width: 1024px){
+/* <---------------- index.html -----------------> */
+/* btn index container */
+.login-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    margin-bottom: -180px;
+}
+
+.login-container a{
+    text-decoration: none;
     font-family: 'Mulish', sans-serif;
 }
 
@@ -26,15 +255,20 @@ cursor: pointer;
     width: 100%;
 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 240px;
+    margin-bottom: 50px;
 }
 
 .sb-container input{
     width: 565px;
     height: 30px;
 
+    margin-top: 40px;
+
     border-radius: 20px;
-    border-width: 0.1px;
+    border-width: 0.5px;
 
     padding-left: 10px;
 
@@ -43,19 +277,35 @@ cursor: pointer;
     font-family: 'Mulish', sans-serif;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.192);
 }
-/* end of sb-container */
 
-/* sb-logo-container  */
-.sb-logo-container{
-    width: 100%;
-    height: 200px;
+.sb-container button{
+    margin-top: 15px;
+    margin-left: 15px;
 
-    display: flex;
-    justify-content: center;
+    border: solid;
+    border-width: .5px;
+    border-color: purple;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+
+    cursor: pointer;
+
+    width: 400px;
+    height: 30px;
+    font-size: large;
 }
 
+.sb-container button:hover{
+    color: purple;
+    background: white;
+}
+/* end of sb-container */
+
 #sb-logo-ph{
-    color: #d400ff;
+    margin-top: -120px;
+    margin-left: 450px;
+    color: purple;
     font-size: 50px;
 }
 
@@ -65,22 +315,287 @@ cursor: pointer;
     font-family: 'Times New Roman', Times, serif;
 }
 /* end of sb-logo-container  */
-
 /* footer container */
-.footer-container{
+.footer-container-1{
+    margin-top: 420px;
     width: 100%;
-
+    height: 30px;
     display: flex;
     justify-content: center;
 
     background-color: rgb(211, 211, 211);
-    margin-top: 455px;
-
-    height: 30px;
     
     border-style: solid;
     border-width: 1px;
     border-radius: 5px;
+
+    /* margin-top: 810px; */
+}
+
+.footer-container-1 p{
+    font-family: 'Mulish', sans-serif;
+
+    font-size: 20px;
+    margin-top: 1px;
+}
+
+.footer-container-1 a{
+padding-left: 20px;
+
+font-family: 'Mulish', sans-serif;
+
+font-size: 20px;
+margin-top: 1px;
+
+text-decoration: none;
+}
+}
+
+/* Login html */
+@media screen and (min-width: 390px){
+    .go-back-btn{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    #back-btn{
+        width: 100%;
+    }
+    
+    .go-back-btn a{
+        color: black;
+    }
+    
+    .go-back-btn button{
+        font-size: 40px;
+        border: none;
+        background-color: white;
+        padding-left: 30px;
+    }
+    
+    /* h-banner container */
+    .h-container{
+        width: 100%;
+        display: flex;
+        
+        justify-content: center;
+    }
+    
+    /* sb-logo-container2  */
+    .sb-logo-container{
+        width: 100%;
+    
+        display: flex;
+        justify-content: center;
+    }
+    
+    #sb-logo-ph2{
+        color: #d400ff;
+        font-size: 35px;
+        height: 1px;
+        margin-top: 5px;
+        margin-left: 215px;
+        margin-bottom: 10px;
+    }
+    
+    #sb-logo-cl2{
+        margin-top: auto;
+        font-size: 55px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    /* end of sb-logo-container2 */
+    
+    /* form container */
+    .form-container{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .login-form{
+        background-color: rgb(241, 241, 241);
+        height: 260px;
+        width: 300px;
+        
+        border: solid;
+        border-width: .5px;
+        border-color: purple;
+        border-radius: 5px;
+
+        align-items: center;
+    }
+
+    .login-form p{
+        font-size: 1.9rem;
+        text-align: center;
+        font-family: 'Mulish', sans-serif;
+        font-weight: bold;
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .login-form input{
+        width: 240px;
+        height: 25px;
+        border-radius: 5px;
+        border-width: .1px;
+    
+        margin-left: 25px;
+        margin-top: 50;
+    }
+    
+    .lbl-email{
+        margin-left: 125px;
+        margin-top: -20px;
+
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: 'Mulish', sans-serif;
+    }
+    
+    .lbl-pw{
+        margin-left: 105px;
+
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: 'Mulish', sans-serif;
+    }
+
+    .lbl-fp{
+        text-decoration: none;
+        margin-left: 160px;
+    }
+
+    .login-form button{
+    margin-top: 15px;
+    margin-left: 25px;
+
+    border: solid;
+    border-width: .5px;
+    border-color: purple;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+
+    cursor: pointer;
+
+    width: 250px;
+    height: 30px;
+    font-size: large;
+}
+
+.login-form button:hover{
+    color: purple;
+    background: white;
+}
+
+.createacc-form{
+    background-color: rgb(241, 241, 241);
+    height: 315px;
+    width: 300px;
+
+    border: solid;
+    border-width: .5px;
+    border-color: purple;
+    border-radius: 5px;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.createacc-form p{
+    font-size: 1.9rem;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.createacc-form input{
+width: 240px;
+height: 25px;
+border-radius: 5px;
+border-width: .1px;
+
+border: solid;
+border-width: .5px;
+border-color: purple;
+border-radius: 5px;
+
+margin-left: 25px;
+margin-top: 50;
+}
+
+.lbl-caf-email{
+margin-left: 125px;
+
+font-size: 1.2rem;
+font-weight: bold;
+font-family: 'Mulish', sans-serif;
+}
+
+.lbl-caf-pw{
+margin-left: 105px;
+
+font-size: 1.2rem;
+font-weight: bold;
+font-family: 'Mulish', sans-serif;
+}
+
+.lbl-caf-cpw{
+margin-left: 70px;
+
+font-size: 1.2rem;
+font-weight: bold;
+font-family: 'Mulish', sans-serif;
+}
+
+.createacc-form button{
+margin-top: 20px;
+margin-left: 10px;
+
+border: solid;
+border-width: .5px;
+border-color: purple;
+border-radius: 5px;
+background-color: purple;
+color: white;
+
+cursor: pointer;
+
+width: 280px;
+height: 30px;
+
+font-size: large;
+}
+
+.createacc-form button:hover{
+    color: purple;
+    background: white;
+}
+/* end of form container */
+
+/* footer container2 */
+.footer-container{
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(211, 211, 211);
+    
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+
+    /* margin-top: 810px; */
 }
 
 .footer-container p{
@@ -93,6 +608,273 @@ cursor: pointer;
 .footer-container a{
 padding-left: 20px;
 
+font-family: 'Mulish', sans-serif;
+
+font-size: 20px;
+margin-top: 1px;
+
+text-decoration: none;
+}
+}
+@media screen and (min-width: 768px){
+    .go-back-btn{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    #back-btn{
+        width: 100%;
+    }
+    
+    .go-back-btn a{
+        color: black;
+    }
+    
+    .go-back-btn button{
+        font-size: 40px;
+        border: none;
+        background-color: white;
+        padding-left: 30px;
+    }
+    
+    /* h-banner container */
+    .h-container{
+        width: 100%;
+        display: flex;
+        
+        justify-content: center;
+    }
+    
+    /* sb-logo-container2  */
+    .sb-logo-container{
+        width: 100%;
+    
+        display: flex;
+        justify-content: center;
+    }
+    
+    #sb-logo-ph2{
+        color: #d400ff;
+        font-size: 35px;
+        height: 1px;
+        margin-top: 5px;
+        margin-left: 215px;
+        margin-bottom: 10px;
+    }
+    
+    #sb-logo-cl2{
+        margin-top: auto;
+        font-size: 55px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    /* end of sb-logo-container2 */
+    
+    /* form container */
+    .form-container{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .login-form{
+        background-color: rgb(241, 241, 241);
+        height: 295px;
+        width: 450px;
+    
+        border: solid;
+        border-width: .5px;
+        border-color: purple;
+        border-radius: 5px;
+
+        align-items: center;
+    }
+
+    .login-form p{
+        font-size: 1.9rem;
+        text-align: center;
+        font-family: 'Mulish', sans-serif;
+        font-weight: bold;
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .login-form input{
+        width: 380px;
+        height: 30px;
+
+        border: solid;
+        border-width: .5px;
+        border-color: purple;
+        border-radius: 5px;
+    
+        margin-left: 30px;
+        margin-top: 50;
+    }
+    
+    .lbl-email{
+        margin-left: 200px;
+        margin-top: -20px;
+
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: 'Mulish', sans-serif;
+    }
+    
+    .lbl-pw{
+        margin-left: 180px;
+
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: 'Mulish', sans-serif;
+    }
+
+    .lbl-fp{
+        margin-left: 305px;
+    }
+
+    .login-form button{
+    margin-top: 30px;
+    margin-left: 35px;
+
+    border: solid;
+    border-width: .5px;
+    border-color: purple;
+    border-radius: 5px;
+
+    background-color: purple;
+    color: white;
+
+    cursor: pointer;
+
+    width: 380px;
+    height: 40px;
+    font-size: x-large;
+
+    cursor: pointer;
+}
+
+.login-form button:hover{
+    color: purple;
+    background: white;
+}
+
+.createacc-form{
+    background-color: rgb(241, 241, 241);
+    height: 355px;
+    width: 450px;
+
+    border: solid;
+    border-width: .5px;
+    border-color: purple;
+    border-radius: 5px;
+    border-color: purple;
+
+    align-items: center;
+}
+
+.createacc-form p{
+    font-size: 1.9rem;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.createacc-form input{
+    width: 375px;
+    height: 30px;
+
+    border: solid;
+    border-width: .5px;
+    border-color: purple;
+    border-radius: 5px;
+    border-color: purple;
+
+    margin-left: 30px;
+    margin-top: 50;
+}
+
+.lbl-caf-email{
+margin-left: 200px;
+
+font-size: 1.2rem;
+font-weight: bold;
+font-family: 'Mulish', sans-serif;
+}
+
+.lbl-caf-pw{
+margin-left: 180px;
+
+font-size: 1.2rem;
+font-weight: bold;
+font-family: 'Mulish', sans-serif;
+}
+
+.lbl-caf-cpw{
+margin-left: 140px;
+
+font-size: 1.2rem;
+font-weight: bold;
+font-family: 'Mulish', sans-serif;
+}
+
+.createacc-form button{
+    margin-top: 30px;
+    margin-left: 35px;
+
+    border: solid;
+    border-width: .5px;
+    border-color: purple;
+    border-radius: 5px;
+
+    background-color: purple;
+    color: white;
+
+    cursor: pointer;
+
+    width: 380px;
+    height: 40px;
+    font-size: x-large;
+}
+
+.createacc-form button:hover{
+    color: purple;
+    background: white;
+}
+/* end of form container */
+
+/* footer container2 */
+.footer-container{
+    margin-top: 115px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(211, 211, 211);
+    
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+
+    /* margin-top: 810px; */
+}
+
+.footer-container p{
+    font-family: 'Mulish', sans-serif;
+
+    font-size: 20px;
+    margin-top: 1px;
+}
+
+.footer-container a{
+padding-left: 20px;
 
 font-family: 'Mulish', sans-serif;
 
@@ -101,16 +883,13 @@ margin-top: 1px;
 
 text-decoration: none;
 }
-
-/* end of footer container */
-/* <---------------- end of login.html -----------------> */
-
-
-/* <---------------- login.html -----------------> */
+}
+@media screen and not (max-width: 1024px){
+    
 .go-back-btn{
     width: 100%;
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
 }
 
 #back-btn{
@@ -132,6 +911,7 @@ text-decoration: none;
 .h-container{
     width: 100%;
     display: flex;
+    
     justify-content: center;
 }
 
@@ -164,72 +944,150 @@ text-decoration: none;
 width: 100%;
 
 display: flex;
-justify-content: center;
+flex-direction: column;
+align-items: center;
 }
 
 .login-form{
-    background-color: rgb(228, 228, 228);
-    height: 250px;
+    background-color: rgb(241, 241, 241);
+    height: 295px;
     width: 450px;
-
+    
     border: solid;
-    border-width: .1px;
+    border-width: .5px;
+    border-color: purple;
     border-radius: 5px;
+    border-color: purple;
+
+    align-items: center;
 }
+
 .login-form p{
+    font-size: 1.9rem;
     text-align: center;
-    margin-top: 10px;
-    font-size: 30px;
     font-family: 'Mulish', sans-serif;
-    font-weight: 900;
-}
-
-.login-form input{
-    font-size: 20px;
-    border-radius: 5px;
-    border-width: .1px;
-    margin-left: 0px;
-}
-
-#lf-email{
-    font-size: 20px;
     font-weight: bold;
-    margin-left: 45px;
-}
 
-#lf-pw{
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 30px;
     margin-top: 10px;
-    margin-bottom: 15px;
-}
-
-.login-form button{
-margin-left: 343px;
-
-width: 80px;
-height: 30px;
-}
-
-.createacc-form{
-    background-color: rgb(228, 228, 228);
-    height: 400px;
-    width: 450px;
-
-    border: solid;
-    border-width: .1px;
-    border-radius: 5px;
-
-    margin-top: 20px;
     margin-bottom: 10px;
 }
 
+.login-form input{
+    width: 380px;
+    height: 30px;
+    border-radius: 5px;
+    border-width: .1px;
 
-/* end of form container */
+    margin-left: 30px;
+    margin-top: 50;
+}
 
-/* footer container2 */
-.footer-container-2{
+.lbl-email{
+    margin-left: 200px;
+    margin-top: -20px;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Mulish', sans-serif;
+}
+
+.lbl-pw{
+    margin-left: 180px;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Mulish', sans-serif;
+}
+
+.login-form button{
+margin-top: 30px;
+margin-left: 35px;
+
+border: solid;
+border-width: .5px;
+border-color: purple;
+border-radius: 5px;
+border-color: purple;
+
+width: 380px;
+height: 40px;
+font-size: x-large;
+}
+
+.createacc-form{
+background-color: rgb(241, 241, 241);
+height: 360px;
+width: 450px;
+
+border: solid;
+border-width: .5px;
+border-color: purple;
+border-radius: 5px;
+border-color: purple;
+
+align-items: center;
+}
+
+.createacc-form p{
+font-size: 1.9rem;
+text-align: center;
+font-family: 'Mulish', sans-serif;
+font-weight: bold;
+
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.createacc-form input{
+width: 380px;
+height: 30px;
+border-radius: 5px;
+border-width: .1px;
+
+margin-left: 30px;
+}
+
+.lbl-caf-email{
+margin-left: 200px;
+
+font-size: 1.2rem;
+font-weight: bold;
+font-family: 'Mulish', sans-serif;
+}
+
+.lbl-caf-pw{
+margin-left: 180px;
+
+font-size: 1.2rem;
+font-weight: bold;
+font-family: 'Mulish', sans-serif;
+}
+
+.lbl-caf-cpw{
+margin-left: 140px;
+
+font-size: 1.2rem;
+font-weight: bold;
+font-family: 'Mulish', sans-serif;
+}
+
+.createacc-form button{
+margin-top: 30px;
+margin-left: 35px;
+
+border: solid;
+border-width: .5px;
+border-color: purple;
+border-radius: 5px;
+border-color: purple;
+
+width: 380px;
+height: 40px;
+font-size: x-large;
+}
+
+.footer-container{
+    margin-top: 90px;
     width: 100%;
     height: 30px;
     display: flex;
@@ -244,16 +1102,15 @@ height: 30px;
     /* margin-top: 810px; */
 }
 
-.footer-container-2 p{
+.footer-container p{
     font-family: 'Mulish', sans-serif;
 
     font-size: 20px;
     margin-top: 1px;
 }
 
-.footer-container-2 a{
+.footer-container a{
 padding-left: 20px;
-
 
 font-family: 'Mulish', sans-serif;
 
@@ -262,8 +1119,16 @@ margin-top: 1px;
 
 text-decoration: none;
 }
+}
 
-/* end of footer container2 */
-
-
+/* About html */
+@media screen and (min-width: 390px){
+    
+}
+@media screen and (min-width: 390px){
+    
+}
+@media screen and not (max-width: 1024px){
+    
+}
 /* <---------------- end of login.html -----------------> */
