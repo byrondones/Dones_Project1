@@ -134,7 +134,7 @@
 }
 
 .go-back-btn a{
-    color: black;
+    color: purple;
 }
 
 .go-back-btn button{
@@ -440,10 +440,8 @@ text-decoration: none;
     }
 
     /* main html */
-    .pst-btn{
-    }
-
-    .lgn-btn-1{
+    .pst-btn-1{
+        text-align: end;
     }
 
     .lgn-btn-1 a{
