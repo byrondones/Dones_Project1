@@ -695,7 +695,7 @@ text-decoration: none;
         }
     }
 
-    @media screen and (min-width:1024px){
+    @media screen and (min-width:1920px){
         .footer-container{
         margin-top: 475px;
         }
